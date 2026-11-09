@@ -1,0 +1,10 @@
+{
+  "brand": "Northwind Coffee",
+  "product": "Winter Roast",
+  "goal": "conversion",
+  "tone": "playful",
+  "channel": "sms",
+  "offer": "20% off your next bag",
+  "url": "https://example.com/w",
+  "variantCount": 3
+}

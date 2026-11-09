@@ -1,0 +1,10 @@
+{
+  "brand": "Northwind Coffee",
+  "product": "Winter Roast",
+  "goal": "reactivation",
+  "tone": "friendly",
+  "channel": "email",
+  "offer": "free shipping",
+  "url": "https://example.com/winter",
+  "variantCount": 3
+}

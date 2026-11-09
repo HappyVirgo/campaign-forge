@@ -1,0 +1,32 @@
+{
+  "name": "campaign-forge",
+  "version": "0.1.0",
+  "description": "Audience segmentation (k-means + rules), compliant AI campaign generation and A/B/n + bandit experimentation for marketing teams.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Bryant Le",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "lint": "biome lint src test bench",
+    "test": "vitest run",
+    "bench": "tsx bench/run.ts",
+    "cli": "tsx src/cli.ts",
+    "serve": "tsx src/cli.ts serve"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.6.0",
+    "@hono/node-server": "^2.1.6",
+    "hono": "^4.13.16",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.6.6",
+    "@types/node": "^24.19.2",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vitest": "^5.1.0"
+  }
+}
